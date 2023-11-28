@@ -6,7 +6,7 @@
 }
 
 body{
-    background: #f87474;
+    background: #dbf3fc;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,9 +33,9 @@ body{
 }
 
 .temperature h1{
-    font-size: 30px;
-    font-weight: 750;
-    letter-spacing: 1.4px;
+    font-size: 19px;
+    font-weight: 800;
+    letter-spacing: 1.2px;
     color: #fff;
 }
 
@@ -92,9 +92,11 @@ body{
     letter-spacing: 0.7px;
     font-family: sans-serif;
     transition: 0.3s ease;
+    cursor: pointer;
 }
 
 .btn button:hover{
-    background: #f87474;
+    background: #1b3030;
     color: #fff;
+    border: 1px solid #fff;
 }
