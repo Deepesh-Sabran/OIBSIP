@@ -1,0 +1,594 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* CSS for Header Part */
+.headerSecton {
+  background-image: url(images/heroSectionBackground.png);
+  background-size: cover;
+  min-height: 61vh;
+  background-position: center;
+  scale: 1.09;
+  background-color: transparent;
+}
+
+/* CSS for Nav Bar */
+.navBar a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navBar a:hover {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px;
+  padding-left: 220px;
+  padding-top: 20px;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.navBar_menu {
+  display: flex;
+  gap: 28px;
+  margin-right: 200px;
+  font-weight: 280;
+  font-size: 12px;
+}
+
+.navBar_menu .user_icon {
+  height: 25px;
+  width: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 200px;
+  height: 45px;
+  margin-top: 11px;
+}
+
+.title {
+  color: #fff;
+  margin-top: 23px;
+  font-family: sans-serif;
+  font-weight: 100;
+  scale: 1.15;
+}
+
+.container_input {
+  display: flex;
+  background-color: #fff;
+  width: 42%;
+  padding: 8px;
+  gap: 10px;
+  border-radius: 6px;
+  margin-top: 25px;
+}
+
+.input_location,
+.input_search {
+  font-size: 10px;
+  border: none;
+  padding: 5px;
+  outline: none;
+}
+
+.input_location {
+  width: 35%;
+  border-right: 2px solid lightgray;
+}
+
+.input_search {
+  width: 65%;
+}
+
+/* CSS for Cards */
+.cards {
+  margin: 3rem auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.cards__we_offer {
+  display: flex;
+  flex-direction: column;
+  width: 18rem;
+  border-radius: 15px;
+  border: 1px solid lightgray;
+  overflow: hidden;
+}
+
+.cards__we_offer img {
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.cards__we_offer:hover {
+  transition: all 0.2s ease-in-out;
+  scale: 1.03;
+}
+
+.card_heading {
+  padding: 1.15rem;
+}
+
+.card_heading h2 {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.card_heading p {
+  padding-top: 4px;
+  font-weight: 350;
+  font-size: 11.9px;
+}
+
+/* CSS for Collections */
+.collections {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem auto;
+}
+
+.collections h1 {
+  margin-right: 735px;
+  font-weight: 417;
+  font-size: 27px;
+}
+
+.collections .collections_subHeading {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 200;
+  padding-left: 350px;
+}
+
+.collections_subHeading span:nth-child(2) {
+  font-size: 12px;
+  margin-left: 60px;
+  color: red;
+}
+
+i {
+  color: red;
+  opacity: 0.5;
+}
+
+.Collection_card {
+  margin: 1.5rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  gap: 0.5rem;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.Collection_card img {
+  width: 217px;
+  height: 270px;
+  border-radius: 8px;
+}
+
+/* CSS for Get The App Section */
+.getTheApp_container {
+  margin: 5rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60vw;
+  height: auto;
+  margin-left: 230px;
+}
+
+.getTheApp_img {
+  width: 50%;
+}
+
+.getTheApp_img img {
+  margin-left: 120px;
+  width: 190px;
+  height: 200px;
+}
+
+.getTheApp_from {
+  align-items: center;
+  margin-right: 50px;
+  width: 50%;
+}
+
+.getTheApp_from h1 {
+  font-weight: 400;
+  font-size: 34px;
+}
+
+.getTheApp_from p {
+  margin-top: 1rem;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.getTheApp_from input {
+  margin-top: 1rem;
+  margin-right: 0.3rem;
+  border: 1.5px solid gray;
+  border-radius: 3px;
+}
+
+.getTheApp_from label {
+  margin-right: 2rem;
+  font-weight: 300;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.getTheApp_from .textField {
+  height: 38px;
+  width: 230px;
+  opacity: 0.6;
+}
+
+.getTheApp_from button {
+  height: 38px;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  background-color: rgb(239, 79, 95);
+  cursor: pointer;
+}
+
+.getTheApp_from button:hover {
+  transition: all 0.3s ease-in-out;
+  background-color: rgb(203, 56, 56);
+}
+
+.getTheApp_from span {
+  font-weight: 350;
+  font-size: 11px;
+  opacity: 0.6;
+}
+
+.store_logo {
+  display: flex;
+  gap: 1rem;
+}
+
+.store_logo img {
+  margin-top: 0.5rem;
+  width: 110px;
+}
+
+.footer {
+  width: 100%;
+}
+
+/* CSS for Footer Part */
+.footer_sec1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+}
+
+.footer_sec1 img {
+  width: 110px;
+}
+
+.sec1_buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav_container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: 70%;
+  margin: auto;
+  gap: 1rem;
+  padding: 3rem 0;
+  margin-top: -15px;
+}
+
+.nav_link {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.nav_link h5 {
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.footer_link {
+  text-decoration: none;
+  color: black;
+  font-size: 11.5px;
+  font-weight: 200;
+}
+
+.footer_link:hover {
+  font-weight: 300;
+}
+
+.social_icons {
+  margin-bottom: -10px;
+}
+
+.social_icons button {
+  border: none;
+  height: 23px;
+  width: 23px;
+  border-radius: 28px;
+  cursor: pointer;
+}
+
+.social_icons button i {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_last_logo {
+  width: 120px;
+  cursor: pointer;
+}
+
+hr {
+  width: 70%;
+}
+
+/* CSS for Copyright Section */
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+
+.copyright p {
+  width: 100%;
+  margin: 2rem 0 2rem 300px;
+  font-size: 11px;
+  color: gray;
+  font-weight: 300;
+}
+
+/* Media Query for Responsiveness (MOBILE VIEW) */
+/* screen size 0 - 600 */
+
+@media only screen and (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  /* CSS for Headr Part */
+  .navBar_menu .user_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-color: #fff;
+  }
+
+  .link {
+    display: none;
+  }
+
+  .headerSecton {
+    display: flex;
+    flex-direction: column;
+    min-height: 58vh;
+  }
+
+  .navBar {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+  }
+
+  .navBar_menu {
+    margin-right: 50px;
+  }
+
+  .logo {
+    width: 150px;
+    height: 35px;
+  }
+
+  .title {
+    scale: 1;
+    margin-top: 15px;
+  }
+
+  .container_input {
+    display: flex;
+    width: 79%;
+    border-radius: 20px;
+  }
+
+  .input_location {
+    width: 100%;
+    border-right: none;
+    border-right: 2px solid lightgray;
+    width: 35%;
+  }
+
+  .input_search {
+    width: 65%;
+  }
+
+  /* CSS for Cards */
+  .cards {
+    margin: 3rem auto;
+    width: 93%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cards__we_offer img {
+    width: 100%;
+    height: 179px;
+    scale: 1.1;
+    object-fit: cover;
+  }
+
+  .cards__we_offer:hover {
+    transition: all 0.2s ease-in-out;
+    scale: 1.03;
+  }
+
+  .card_heading p {
+    padding-top: 8px;
+    font-weight: 300;
+    font-size: 11px;
+    overflow: auto;
+  }
+
+  /* CSS for Collerctions */
+  .collections {
+    width: 95%;
+  }
+
+  .collections h1 {
+    font-size: 30px;
+  }
+
+  .collections .collections_subHeading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-left: 0;
+    margin-right: 413px;
+  }
+
+  .collections_subHeading span:nth-child(2) {
+    font-size: 15px;
+    margin-left: 60px;
+    color: red;
+  }
+
+  .Collection_card {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .Collection_card img {
+    width: 130px;
+    height: 330px;
+  }
+
+  /* CSS for Get The App Section */
+  .getTheApp_container {
+    margin: 5rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120%;
+    margin-left: -90px;
+  }
+
+  .getTheApp_from h1 {
+    font-size: 30px;
+  }
+
+  .getTheApp_from p {
+    margin-top: 1rem;
+    font-weight: 200;
+    font-size: 15px;
+  }
+
+  .getTheApp_from .textField {
+    height: 38px;
+    width: 173px;
+    opacity: 0.6;
+  }
+
+  .getTheApp_from button {
+    height: 38px;
+    width: 60px;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background-color: rgb(239, 79, 95);
+  }
+
+  /* CSS for Footer Part */
+  .footer_sec1 {
+    width: 90%;
+    margin: auto;
+  }
+
+  .nav_container {
+    width: 90%;
+    margin: auto;
+  }
+
+  .social_icons {
+    width: 133px;
+  }
+
+  .social_icons button i {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  hr {
+    width: 90%;
+  }
+
+  /* CSS for Copyright Section */
+  .copyright p {
+    display: flex;
+    margin: 2rem 0;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+  }
+}
+
+/* ----------------------------------------------------------- THE END --------------------------------------------------------------- */
