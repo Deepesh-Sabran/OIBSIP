@@ -1,6 +1,3 @@
-## PROJECTS :
+# Portfolio
 
-    >> 1. Calculator
-    >> 2. temperatureConverter
-    >> 3. zomatoClone
-    >> 4. TO-DO app
+    >> 1. Side Pannel Navigation bar
